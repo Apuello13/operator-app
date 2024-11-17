@@ -17,7 +17,7 @@ function Login() {
       .then((response) => {
         const operator = response.data;
         sessionStorage.setItem("operator", JSON.stringify(operator));
-        navigate("/home");
+        navigate("/home-operator");
       })
       .catch((error) => {
         const message = error.response?.data?.error;

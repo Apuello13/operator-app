@@ -24,7 +24,7 @@ function Home() {
     alert.confirm().then((result) => {
       if (result.isConfirmed) {
         logOut();
-        navigate("/login");
+        navigate("/login-operator");
       }
     });
   };
@@ -34,7 +34,7 @@ function Home() {
     if (session) setUser(JSON.parse(session));
     else {
       alert.error("No tiene una session abierta");
-      navigate("/login");
+      navigate("/login-operator");
     }
   };
 
