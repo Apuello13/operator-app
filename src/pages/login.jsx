@@ -39,7 +39,7 @@ function Login() {
   return (
     <div className="h-100 flex align-items-center justify-content-center flex-column">
       <img
-        src="https://ambly-bucket.s3.us-east-2.amazonaws.com/ambly+blancocompleto.png"
+        src="https://s3.ambly.co/api/sftp/files/file-52095052.png"
         alt="Logo Ambly Fondo Blanco"
         width="auto"
         height="45px"
